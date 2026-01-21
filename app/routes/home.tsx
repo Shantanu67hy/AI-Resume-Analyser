@@ -39,7 +39,7 @@ export default function Home() {
     loadResumes()
   }, []);
 
-  return <main className="bg-[url('/images/bg-main.svg')] bg-cover bg-center">
+  return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
 
     <section className="main-section">
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center mt-10 gap-4">
             <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
               Upload Resume
-            </Link>  
+            </Link>
           </div>
       )}
     </section>
